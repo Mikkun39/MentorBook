@@ -15,6 +15,10 @@
 		BDE98A5D2508BE0200A3E01D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE98A5B2508BE0200A3E01D /* LaunchScreen.storyboard */; };
 		BDE98A682508BE0200A3E01D /* MentorBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE98A672508BE0200A3E01D /* MentorBookTests.swift */; };
 		BDE98A732508BE0200A3E01D /* MentorBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE98A722508BE0200A3E01D /* MentorBookUITests.swift */; };
+		BDE98A842508BE3000A3E01D /* ryo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE98A812508BE3000A3E01D /* ryo.jpg */; };
+		BDE98A852508BE3000A3E01D /* nagata.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE98A822508BE3000A3E01D /* nagata.jpg */; };
+		BDE98A862508BE3000A3E01D /* taithi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BDE98A832508BE3000A3E01D /* taithi.jpg */; };
+		BDE98A8A2508CDF000A3E01D /* Mentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE98A892508CDF000A3E01D /* Mentor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		BDE98A6E2508BE0200A3E01D /* MentorBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MentorBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDE98A722508BE0200A3E01D /* MentorBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MentorBookUITests.swift; sourceTree = "<group>"; };
 		BDE98A742508BE0200A3E01D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE98A812508BE3000A3E01D /* ryo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ryo.jpg; sourceTree = "<group>"; };
+		BDE98A822508BE3000A3E01D /* nagata.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nagata.jpg; sourceTree = "<group>"; };
+		BDE98A832508BE3000A3E01D /* taithi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = taithi.jpg; sourceTree = "<group>"; };
+		BDE98A892508CDF000A3E01D /* Mentor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mentor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +107,11 @@
 		BDE98A4F2508BE0100A3E01D /* MentorBook */ = {
 			isa = PBXGroup;
 			children = (
+				BDE98A802508BE3000A3E01D /* images */,
 				BDE98A502508BE0100A3E01D /* AppDelegate.swift */,
 				BDE98A522508BE0100A3E01D /* SceneDelegate.swift */,
 				BDE98A542508BE0100A3E01D /* ViewController.swift */,
+				BDE98A892508CDF000A3E01D /* Mentor.swift */,
 				BDE98A562508BE0100A3E01D /* Main.storyboard */,
 				BDE98A592508BE0200A3E01D /* Assets.xcassets */,
 				BDE98A5B2508BE0200A3E01D /* LaunchScreen.storyboard */,
@@ -126,6 +136,16 @@
 				BDE98A742508BE0200A3E01D /* Info.plist */,
 			);
 			path = MentorBookUITests;
+			sourceTree = "<group>";
+		};
+		BDE98A802508BE3000A3E01D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BDE98A812508BE3000A3E01D /* ryo.jpg */,
+				BDE98A822508BE3000A3E01D /* nagata.jpg */,
+				BDE98A832508BE3000A3E01D /* taithi.jpg */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE98A862508BE3000A3E01D /* taithi.jpg in Resources */,
+				BDE98A842508BE3000A3E01D /* ryo.jpg in Resources */,
+				BDE98A852508BE3000A3E01D /* nagata.jpg in Resources */,
 				BDE98A5D2508BE0200A3E01D /* LaunchScreen.storyboard in Resources */,
 				BDE98A5A2508BE0200A3E01D /* Assets.xcassets in Resources */,
 				BDE98A582508BE0100A3E01D /* Main.storyboard in Resources */,
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDE98A8A2508CDF000A3E01D /* Mentor.swift in Sources */,
 				BDE98A552508BE0100A3E01D /* ViewController.swift in Sources */,
 				BDE98A512508BE0100A3E01D /* AppDelegate.swift in Sources */,
 				BDE98A532508BE0100A3E01D /* SceneDelegate.swift in Sources */,
